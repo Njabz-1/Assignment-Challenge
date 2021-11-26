@@ -27,7 +27,7 @@ const Final = () => {
             <div className="final-right">
                 <div className="final-card background"></div>
                 <div className="final-card">
-                    <img src={Me} alt="An image of myself" className="final-img"/>
+                    <img src={Me} alt="Me :)" className="final-img"/>
                 </div>
             </div>
         </div>
