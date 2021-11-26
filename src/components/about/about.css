@@ -48,10 +48,12 @@
     height: 10%;
     width: 10%;
     padding-left: 100px;
+    margin-top: 20px;
 }
 
-.about-title {
+.about-title.center {
     font-weight: 400;
+    text-align: center;
 }
 
 .about-subtitle {
@@ -60,4 +62,13 @@
 
 .about-description {
     font-weight: 300;
+}
+
+.about-skills  {
+    padding: 40px;
+}
+
+.about-icons{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
 }
