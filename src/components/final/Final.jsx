@@ -1,5 +1,5 @@
 import "./final.css"
-import Me from  "../../img/Contemplating.jpg"
+import Me from  "../../img/Dimple-Sunset.jpg"
 
 const Final = () => {
     return (
@@ -25,8 +25,10 @@ const Final = () => {
                 </div>
             </div>
             <div className="final-right">
-                <div className="final-background"></div>
-                <img src={Me}  className="final-img" />
+                <div className="final-card background"></div>
+                <div className="final-card">
+                    <img src={Me} alt="An image of myself" className="final-img"/>
+                </div>
             </div>
         </div>
     )
