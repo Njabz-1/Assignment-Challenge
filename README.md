@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# See line 74 for link to the deployed application
 
+# Created using React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -71,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Stuff that I need to say
 
+Here is the link to the live application - https://assignment-challenge.vercel.app/
