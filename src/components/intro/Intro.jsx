@@ -19,7 +19,7 @@ const Intro = () => {
 
                         </div>
                     </div>
-                    <div className="intro-desc">
+                    <div className="intro-description">
                     I am a team player, enthusiastic and an individual 
                     who likes to work towards a clearly defined goal. 
                     I have an inquisitive approach to life and often like 

@@ -31,3 +31,8 @@
       margin: 0 .5em;
     }
     
+    @media screen and (max-width: 480px) {
+      .social-list-item {
+        margin: 0;
+      }
+    }

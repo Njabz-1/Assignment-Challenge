@@ -63,3 +63,32 @@
     object-fit: cover;
     box-shadow: 100px;
 }
+@media screen and (max-width: 480px) {
+    .final {
+        flex-direction: column-reverse;
+        padding: 0px;
+        text-align: center;
+    }
+    .final-left{
+        padding: 1px;
+    }
+    .final-card.background{
+        display: none;
+    }
+
+    .final-heading{
+        font-size: 40px;
+        padding: 0px 10px;
+        height: 20%;
+    }
+
+    .final-card {
+        margin-top: 60px;
+        width: 100%;
+        height: 39vh;
+        border-radius: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+    

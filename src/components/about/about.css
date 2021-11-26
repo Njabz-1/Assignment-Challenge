@@ -72,3 +72,42 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .about-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-card {
+        height: 30vh;
+    }
+
+    .about-card.background {
+        display: none;
+    }
+    .about-subtitle {
+        margin: 0px;
+    }
+    .about-misc {
+        display: none;
+    }
+
+    .about-title.center {
+        font-weight: 600;
+        padding: 10px;
+    }
+    .about-skills  {
+        padding: 0px;
+    }
+    .about-right{
+        padding: 0px;
+    }
+
+}
